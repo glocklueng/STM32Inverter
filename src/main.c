@@ -8,12 +8,15 @@
   ******************************************************************************
 */
 
-
 #include "stm32f10x.h"
-
+#include "UART/usart.h"
 
 int main(void)
 {
+uart_init();
 
-	for(;;);
+	 while (1)
+	 {
+	 printf("Dej Inverter!\n");
+	 }
 }

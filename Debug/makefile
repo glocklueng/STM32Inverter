@@ -9,6 +9,7 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include startup/subdir.mk
+-include src/UART/subdir.mk
 -include src/subdir.mk
 -include StdPeriph_Driver/src/subdir.mk
 -include subdir.mk

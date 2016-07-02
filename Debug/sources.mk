@@ -17,5 +17,6 @@ C_DEPS :=
 SUBDIRS := \
 startup \
 src \
+src/UART \
 StdPeriph_Driver/src \
 
