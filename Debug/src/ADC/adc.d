@@ -1,4 +1,4 @@
-src/main.o: ../src/main.c \
+src/ADC/adc.o: ../src/ADC/adc.c \
  C:/Users/Rafau/forbot/workspace/Inverter/CMSIS/device/stm32f10x.h \
  C:/Users/Rafau/forbot/workspace/Inverter/CMSIS/core/core_cm3.h \
  C:/Users/Rafau/forbot/workspace/Inverter/CMSIS/core/core_cmInstr.h \
@@ -27,8 +27,7 @@ src/main.o: ../src/main.c \
  C:/Users/Rafau/forbot/workspace/Inverter/StdPeriph_Driver/inc/stm32f10x_tim.h \
  C:/Users/Rafau/forbot/workspace/Inverter/StdPeriph_Driver/inc/stm32f10x_usart.h \
  C:/Users/Rafau/forbot/workspace/Inverter/StdPeriph_Driver/inc/stm32f10x_wwdg.h \
- C:/Users/Rafau/forbot/workspace/Inverter/StdPeriph_Driver/inc/misc.h \
- ../src/UART/usart.h ../src/ADC/adc.h
+ C:/Users/Rafau/forbot/workspace/Inverter/StdPeriph_Driver/inc/misc.h
 
 C:/Users/Rafau/forbot/workspace/Inverter/CMSIS/device/stm32f10x.h:
 
@@ -87,7 +86,3 @@ C:/Users/Rafau/forbot/workspace/Inverter/StdPeriph_Driver/inc/stm32f10x_usart.h:
 C:/Users/Rafau/forbot/workspace/Inverter/StdPeriph_Driver/inc/stm32f10x_wwdg.h:
 
 C:/Users/Rafau/forbot/workspace/Inverter/StdPeriph_Driver/inc/misc.h:
-
-../src/UART/usart.h:
-
-../src/ADC/adc.h:
