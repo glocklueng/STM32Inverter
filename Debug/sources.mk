@@ -18,6 +18,7 @@ SUBDIRS := \
 startup \
 src \
 src/UART \
+src/PWM \
 src/ADC \
 StdPeriph_Driver/src \
 
